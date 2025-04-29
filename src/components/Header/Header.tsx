@@ -10,7 +10,7 @@ export function Header() {
                 <Link href='/' className='nav-logo'>
                     <img src='/logo.png' alt='Logo' className='logo' />
                 </Link>
-                <strong>W3 finance</strong>
+                <strong>W2 finance</strong>
 
                 <ul className='nav-list'>
                     <li>
