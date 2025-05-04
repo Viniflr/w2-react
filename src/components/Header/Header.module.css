@@ -1,4 +1,77 @@
 .header {
-    background: #777;
+    background: var(--gray-400);
     height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+}
+
+.logoW2 {
+    width: 6.5rem;
+    height: auto;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    /* color: var(--white); */
+}
+
+.nav_list a {
+    position: relative;
+
+    font-size: 1rem;
+    color: var(--white);
+    text-decoration: none;
+
+    padding: 0 0.4rem;
+}
+
+.nav_list a:after {
+    content: "";
+    position: absolute;
+
+    background-color: var(--white);
+
+    height: 0.094rem;
+    width: 0;
+    left: 0;
+    bottom: -0.313rem;
+    transition: 0.3s
+}
+
+.nav_list a:hover:after {
+    width: 100%;
+
+}
+
+.header_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--blue-900);
+    color: var(--white);
+    border: none;
+    border-radius: 0.4rem;
+
+    font-size: 0.875rem;
+
+    padding: 0.6rem 1rem;
+    gap: 0.5rem;
+}
+
+.logoEspecialista {
+    width: 0.9rem;
+    height: auto;
 }
