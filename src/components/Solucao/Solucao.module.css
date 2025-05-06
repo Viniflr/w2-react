@@ -1,0 +1,83 @@
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 10rem;
+}
+
+.titulo h1 {
+    font-size: 3.125rem;
+    font-weight: 400;
+
+    color: var(--black);
+}
+
+.titulo span {
+    font-weight: 700;
+    color: var(--blue-900);
+}
+
+.titulo h3 {
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.container_cima, .container_baixo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.container_cima {
+    margin-top: 5rem;
+}
+
+.container_baixo {
+    margin-top: 2rem;
+}
+
+.container_cima img, .container_baixo img {
+    display: flex;
+    position: relative;
+}
+
+.container1 img, .container2 img, .container3 img, .container4 img {
+    display: flex;
+    position: absolute;
+    z-index: 0;
+
+    width: auto;
+    height: 100%;
+    max-width: 100%;
+}
+
+/* .container_cima h1 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+} */
+
+.info_c1, .info_c2, .info_c3, .info_c4 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    color: var(--white);
+
+    z-index: 1;
+}
+
+.info_c1 h1, .info_c2 h1, .info_c3 h1, .info_c4 h1 {
+
+}
+
+.info_c1 p, .info_c2 p, .info_c3 p, .info_c4 p {
+    font-size: 1rem;
+    font-weight: 400;
+}

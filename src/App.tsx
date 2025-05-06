@@ -2,6 +2,7 @@ import { Header } from './components/Header/Header'
 import { Banner } from './components/Banner/Banner'
 import { Resultados } from './components/Resultados/Resultados'
 import { Sobre } from './components/Sobre/Sobre'
+import { Solucao } from './components/Solucao/Solucao'
 
 import './global.css'
 
@@ -12,6 +13,7 @@ export function App() {
       <Banner />
       <Resultados />
       <Sobre />
+      <Solucao />
     </div>
   )
 }
