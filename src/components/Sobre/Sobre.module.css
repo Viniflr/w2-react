@@ -1,0 +1,39 @@
+.wrapper {
+    width: 100%;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: var(--white); 
+}
+
+.info_sobre {
+    display: flex;
+    gap: 4rem;
+}
+
+.fotocomBolinhas {
+    max-width: 766px;
+    flex-shrink: 0; /* <-- Impede que a imagem diminua caso o espaço fique pequeno */
+}
+
+.info_sobre h1 {
+    font-size: 3.125rem; 
+    font-weight: 600;
+    color: black;
+    margin-bottom: 2rem;
+    margin-top: 13rem; /* posiciona a imagem um pouco acima do texto */
+}
+
+.info_sobre h3 {
+    font-size: 2rem; 
+    font-weight: 400;
+    color: black;
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 700px;
+}
+
+.textos {
+    flex: 1; /* <-- Faz com que o texto use o espaço restante */
+    min-width: 0; /* <-- Impede que o texto fique muito largo */
+}

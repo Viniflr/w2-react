@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -4rem; 
+    z-index: 5;
+}
+
+.container {
+    background: white;
+    border-radius: 0.3rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    display: flex;
+    gap: 8rem;
+    padding: 2.5rem 3rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    min-width: 150px;
+}
+
+.card h3 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--blue-900);
+}
+
+.card p {
+    font-size: 1.7rem;
+    color: var(--dark-800);
+    margin-top: 0.5rem;
+}
