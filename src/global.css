@@ -18,6 +18,7 @@ body {
     background: var(--white);
     color: var(--black);
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
 }
 
 body, input, button, textarea {
