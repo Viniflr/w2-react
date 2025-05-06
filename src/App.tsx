@@ -3,6 +3,8 @@ import { Banner } from './components/Banner/Banner'
 import { Resultados } from './components/Resultados/Resultados'
 import { Sobre } from './components/Sobre/Sobre'
 import { Solucao } from './components/Solucao/Solucao'
+import { Servicos } from './components/Servicos/Servicos'
+import { Servicos2 } from './components/Servicos/Servicos2'
 
 import './global.css'
 
@@ -14,6 +16,8 @@ export function App() {
       <Resultados />
       <Sobre />
       <Solucao />
+      <Servicos />
+      <Servicos2 />
     </div>
   )
 }

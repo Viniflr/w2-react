@@ -1,0 +1,124 @@
+.container {
+    background-color: var(--background-blue);
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.titulo {
+    font-size: 3.7rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.titulo span {
+    color: var(--blue-900);
+    font-weight: 700;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.card {
+    background-color: #fff;
+    width: 22rem;
+    height: 22rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+    height: 100%;
+}
+
+.card h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000000;
+}
+
+.card button {
+    align-self: start;
+    background-color: var(--blue-900);
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+.beneficiosContainer {
+    padding: 4rem 1rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.beneficiosTitulo {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+    color: #000000;
+}
+
+.beneficiosGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem 5rem; /* aumentei o espaçamento vertical entre os cards */
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.beneficioCard {
+    text-align: left;
+    padding-left: 1rem; /* desloca tudo para a direita */
+    position: relative;
+}
+
+.beneficioCard h4 {
+    font-size: 1.7rem;
+    color: #1e3a8a;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    border-left: 2px solid #1e3a8a;
+    padding-left: 0.5rem; /* espaçamento interno só do texto do título */
+    margin-left: -1rem; /* puxa o título pra cima da borda do card */
+}
+
+
+.beneficioCard ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.beneficioCard li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
