@@ -6,6 +6,7 @@ import { Solucao } from './components/Solucao/Solucao'
 import { Servicos } from './components/Servicos/Servicos'
 import { Servicos2 } from './components/Servicos/Servicos2'
 import { Empresas } from './components/Empresas/Empresas'
+import { Comentarios } from './components/Empresas/Comentarios'
 
 import './global.css'
 
@@ -20,6 +21,7 @@ export function App() {
       <Servicos />
       <Servicos2 />
       <Empresas />
+      <Comentarios />
     </div>
   )
 }

@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react';
+import { MessageCircle } from 'lucide-react';
+import { Button } from "@/components/ui/button";
+
 import styles from './Header.module.css';
+
 import logoWhite from '../../img/logow2.svg';
 import logoBlack from '../../img/Logo-W2-blue.svg';
-
-import { MessageCircle } from 'lucide-react';
-import { Button } from "@/components/ui/button"
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
