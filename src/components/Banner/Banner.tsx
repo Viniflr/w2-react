@@ -1,5 +1,6 @@
 import styles from './Banner.module.css';
-import logoEspecialista from '../../img/balao_chat.svg';
+
+import { MessageCircle } from 'lucide-react';
 
 export function Banner() {
   return (
@@ -14,11 +15,7 @@ export function Banner() {
             <div className={styles.info_banner}>
                 <button className={styles.banner_button}>
                     Fale com Especialista
-                    <img
-                        className={styles.logoEspecialista}
-                        src={logoEspecialista}
-                        alt="Ícone especialista"
-                    />
+                    <MessageCircle />
                 </button>
             </div>
         </div>

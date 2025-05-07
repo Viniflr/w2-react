@@ -1,0 +1,57 @@
+.empresasContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.empresasTitulo {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--black);
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    max-width: 50rem;
+}
+
+.empresasTitulo span {
+    font-weight: 700;
+    color: var(--blue-900);
+}
+
+.empresasSlider {
+    background-color: var(--background-blue);
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.empresasTrack {
+    display: flex;
+    width: max-content;
+    animation: scrollLogos 30s linear infinite;
+    align-items: center;
+}
+
+.empresaLogo {
+    height: 50px;
+    margin: 0 2rem;
+    flex-shrink: 0;
+}
+
+@keyframes scrollLogos {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.capitalLogo {
+    width: 7rem;
+    height: 7rem;
+    object-fit: contain;
+}

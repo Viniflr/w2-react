@@ -2,7 +2,9 @@ import { useEffect, useState } from 'react';
 import styles from './Header.module.css';
 import logoWhite from '../../img/logow2.svg';
 import logoBlack from '../../img/Logo-W2-blue.svg';
-import logoEspecialista from '../../img/balao_chat.svg';
+
+import { MessageCircle } from 'lucide-react';
+import { Button } from "@/components/ui/button"
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,14 +36,10 @@ export function Header() {
         </nav>
 
         <div className={styles.fale_com_especialista}>
-          <button className={styles.header_button}>
+          <Button className={styles.header_button}>
             Fale com Especialista
-            <img
-              className={styles.logoEspecialista}
-              src={logoEspecialista}
-              alt="Ícone especialista"
-            />
-          </button>
+            <MessageCircle />
+          </Button>
         </div>
       </div>
     </header>

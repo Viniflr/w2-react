@@ -5,6 +5,7 @@ import { Sobre } from './components/Sobre/Sobre'
 import { Solucao } from './components/Solucao/Solucao'
 import { Servicos } from './components/Servicos/Servicos'
 import { Servicos2 } from './components/Servicos/Servicos2'
+import { Empresas } from './components/Empresas/Empresas'
 
 import './global.css'
 
@@ -18,6 +19,7 @@ export function App() {
       <Solucao />
       <Servicos />
       <Servicos2 />
+      <Empresas />
     </div>
   )
 }
