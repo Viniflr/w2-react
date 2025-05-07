@@ -38,6 +38,12 @@
     gap: 0.75rem;
     display: flex;
     cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.banner_button:hover {
+    background-color: var(--blue-950);
 }
 
 .logoEspecialista {

@@ -18,7 +18,7 @@ export function Solucao() {
                     <div className='c1'>
                         <div className={styles.info_c1}>
                             <h1>Lore Ipsum</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur
+                            <p>Lorem ipsum dolor sit amet, <br /> consectetur
                                 adipiscing elit
                             </p>
                         </div>
@@ -28,7 +28,7 @@ export function Solucao() {
                     <div className='c2'>
                         <div className={styles.info_c2}>
                             <h1>Lore Ipsum</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur
+                            <p>Lorem ipsum dolor sit amet, <br /> consectetur
                                 adipiscing elit
                             </p>
                         </div>
@@ -40,7 +40,7 @@ export function Solucao() {
                     <div className='c3'>
                             <div className={styles.info_c3}>
                                 <h1>Lore Ipsum</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur
+                                <p>Lorem ipsum dolor sit amet, <br /> consectetur
                                     adipiscing elit
                                 </p>
                             </div>
@@ -50,7 +50,7 @@ export function Solucao() {
                         <div className='c4'>
                             <div className={styles.info_c4}>
                                 <h1>Lore Ipsum</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur
+                                <p>Lorem ipsum dolor sit amet, <br /> consectetur
                                     adipiscing elit
                                 </p>
                             </div>
