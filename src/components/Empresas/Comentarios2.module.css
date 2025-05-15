@@ -1,0 +1,36 @@
+.carrossel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--blue-300);
+
+    padding: 20px 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    max-width: 75vw;
+
+    margin: 6rem 0;
+
+    background-color: var(--blue-900);
+} 
+
+.container, .carrossel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.container, .carrossel, .item {
+    
+    width: 280px;
+}
+
+.container, .carrossel, .item {}

@@ -1,0 +1,21 @@
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: var(--black);
+    line-height: 1.2;
+
+    width: 350px;
+}
+
+span {
+    font-weight: 700;
+    color: var(--blue-900);
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+
+}

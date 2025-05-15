@@ -12,7 +12,7 @@ export function Comentarios() {
             .then((response) => response.json())
             .then(setData)
             .catch((error) => console.error('Erro ao carregar os dados:', error));
-    }, []);
+    }, [])
 
     if (!data || data.length === 0) return <p>Carregando...</p>;
 

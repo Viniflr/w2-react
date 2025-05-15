@@ -6,7 +6,10 @@ import { Solucao } from './components/Solucao/Solucao'
 import { Servicos } from './components/Servicos/Servicos'
 import { Servicos2 } from './components/Servicos/Servicos2'
 import { Empresas } from './components/Empresas/Empresas'
-import { Comentarios } from './components/Empresas/Comentarios'
+import { Comentarios2 } from './components/Empresas/Comentarios2'
+import { Time } from './components/Time/Time'
+import { Divisao } from './components/Divisao/Divisao'
+import { Local } from './components/Local/Local'
 
 import './global.css'
 
@@ -14,14 +17,17 @@ export function App() {
   return (
     <div>
       <Header />
-      <Banner />
+      <Banner />s
       <Resultados />
       <Sobre />
       <Solucao />
       <Servicos />
       <Servicos2 />
       <Empresas />
-      <Comentarios />
+      <Comentarios2 />
+      <Time />
+      <Divisao />
+      <Local />
     </div>
   )
 }
