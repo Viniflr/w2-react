@@ -6,7 +6,7 @@
 }
 
 .empresasTitulo {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 500;
     color: var(--black);
     margin-top: 10rem;
@@ -24,7 +24,7 @@
     overflow: hidden;
     position: relative;
     width: 100%;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 .empresasTrack {
@@ -35,7 +35,7 @@
 }
 
 .empresaLogo {
-    height: 50px;
+    height: 40px;
     margin: 0 2rem;
     flex-shrink: 0;
 }

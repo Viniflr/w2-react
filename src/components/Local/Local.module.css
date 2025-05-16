@@ -1,15 +1,35 @@
-h1 {
+.geral {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--background-blue);
+
+    gap: 5rem;
+    padding: 8rem 0;
+}
+
+.geral h1 {
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 500;
     color: var(--black);
     line-height: 1.2;
 
     width: 350px;
 }
 
-span {
+.geral span {
     font-weight: 700;
     color: var(--blue-900);
+}
+
+.endereco {
+    display: flex;
+    align-items: top;
+    flex-direction: column;
+
+    gap: 3rem;
 }
 
 .info {
@@ -17,5 +37,39 @@ span {
     flex-direction: row;
     align-items: center;
     justify-content: left;
+}
 
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 0.8rem;
+    padding: 0;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    font-size: 1rem;
+    font-weight: 400;
+
+    gap: 1.1rem;
+    padding-left: 0.5rem;
+}
+
+.info img {
+    width: 1.8rem;
+    height: auto;
+}
+
+.mapa iframe {
+    border-radius: 10px;
+
+
+    width: 700px;
+    height: 450px;
 }

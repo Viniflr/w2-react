@@ -30,8 +30,7 @@
 }
 
 .titulo h1 {
-    display: flex;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--black);
     font-weight: 500;
 }
@@ -42,7 +41,7 @@
 }
 
 .titulo h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: var(--black);
     font-weight: 400;
 }
@@ -72,13 +71,13 @@
 }
 
 .pessoa h1 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: var(--black);
     font-weight: 400;
 }
 
 .pessoa p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: var(--blue-900);
     font-weight: 500;
 }
