@@ -10,6 +10,7 @@ import { Comentarios2 } from './components/Empresas/Comentarios2'
 import { Time } from './components/Time/Time'
 import { Divisao } from './components/Divisao/Divisao'
 import { Local } from './components/Local/Local'
+import { Formulario } from './components/Formulario/Formulario'
 
 import './global.css'
 
@@ -28,6 +29,7 @@ export function App() {
       <Time />
       <Divisao />
       <Local />
+      <Formulario />
     </div>
   )
 }

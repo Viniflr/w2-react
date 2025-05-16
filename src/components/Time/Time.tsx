@@ -6,7 +6,7 @@ import fotoGrupo from '../../img/foto-grupo.svg'
 
 export function Time() {
     return (
-        <div className={styles.container_geral}>
+        <section id='time' className={styles.container_geral}>
             <div className={styles.titulo}> 
                 <h1>Time de <span>Associados</span></h1>
                 <h3>Conheça nosso time de associados</h3>
@@ -37,6 +37,6 @@ export function Time() {
             </div>
 
             <img className={styles.foto_grupo} src={fotoGrupo} alt="" />
-        </div>
+        </section>
     )
 }

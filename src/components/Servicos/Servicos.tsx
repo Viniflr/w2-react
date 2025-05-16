@@ -22,7 +22,7 @@ const servicos = [
 
 export function Servicos() {
     return (
-        <section className={styles.container}>
+        <section id='servicos' className={styles.container}>
             <h2 className={styles.titulo}>
                 Nossos <br /><span>Serviços</span>
             </h2>

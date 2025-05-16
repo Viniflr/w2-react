@@ -31,9 +31,9 @@ export function Header() {
         <nav className={styles.nav_list}>
           <a href="#home">Home</a>
           <a href="#sobre">Quem somos</a>
-          <a href="#">Serviços</a>
-          <a href="#">Nosso Time</a>
-          <a href="#">Contato</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#time">Nosso Time</a>
+          <a href="#contato">Contato</a>
         </nav>
 
         <div className={styles.fale_com_especialista}>
