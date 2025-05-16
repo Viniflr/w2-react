@@ -11,6 +11,7 @@ import { Time } from './components/Time/Time'
 import { Divisao } from './components/Divisao/Divisao'
 import { Local } from './components/Local/Local'
 import { Formulario } from './components/Formulario/Formulario'
+import { Footer } from './components/Footer/Footer'
 
 import './global.css'
 
@@ -18,7 +19,7 @@ export function App() {
   return (
     <div>
       <Header />
-      <Banner />s
+      <Banner />
       <Resultados />
       <Sobre />
       <Solucao />
@@ -30,6 +31,7 @@ export function App() {
       <Divisao />
       <Local />
       <Formulario />
+      <Footer />
     </div>
   )
 }
