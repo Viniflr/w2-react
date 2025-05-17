@@ -3,6 +3,9 @@ import styles from './Footer.module.css';
 import logo from '../../img/logow2.svg'
 import linkedin from '../../img/linkedin-branco.svg'
 import instagram from '../../img/insta.svg'
+import ponteiro from '../../img/local-branco.svg'
+import telefone from '../../img/telefone-branco.svg'
+import email from '../../img/email-branco.svg'
 
 export function Footer() {
     return (
@@ -32,6 +35,33 @@ export function Footer() {
                             <a href="#">Consultoria</a>
                             <a href="#">Tributário</a>
                             <a href="#">Financeiro</a>
+                        </div>
+
+                        <div className={styles.endereco_contato}>
+                            <div className={styles.endereco}>
+                                <h1>Endereço</h1>
+
+                                <div className={styles.info}>
+                                    <img src={ponteiro} alt="" />
+                                    <p>Av. Frei Matias Teves, 285</p>
+                                </div>
+                            </div>
+
+                            <div className={styles.contato}>
+                                <h1>Contato</h1>
+
+                                <div className={styles.info}>
+                                    <div className={styles.icons}>
+                                        <img src={telefone} alt="" />
+                                        <img src={email} alt="" />
+                                    </div>
+                                    <div className={styles.texto}>
+                                        <p>(81) 90000-0000</p>
+                                        <p>email@gmail.com</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
