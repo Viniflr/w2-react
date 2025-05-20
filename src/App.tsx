@@ -16,6 +16,7 @@ import { Footer } from './components/Footer/Footer'
 import './global.css'
 
 export function App() {
+
   return (
     <div>
       <Header />

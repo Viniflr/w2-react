@@ -2,7 +2,7 @@
     {
         "id": 1,
         "titulo": "Comprometido e Simples",
-        "texto": "Desenvolveu procedimentos de inventário na fábrica.",
+        "texto": "Comprometido com os objetivos da organização, desenvolveu procedimentos de inventário na fábrica, reduzindo custos de maneira simples.",
         "pessoa": "Rodrigo Moreira",
         "empresa": "M&G Polímero"
       },
@@ -28,14 +28,14 @@
         "empresa": "M&G Polímero"
       },
       {
-        "id": 4,
+        "id": 5,
         "titulo": "Comprometido e Simples",
         "texto": "Desenvolveu procedimentos de inventário na fábrica.",
         "pessoa": "Rodrigo Moreira",
         "empresa": "M&G Polímero"
       },
       {
-        "id": 4,
+        "id": 6,
         "titulo": "Comprometido e Simples",
         "texto": "Desenvolveu procedimentos de inventário na fábrica.",
         "pessoa": "Rodrigo Moreira",
