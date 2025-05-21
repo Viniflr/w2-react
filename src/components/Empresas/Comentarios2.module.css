@@ -1,15 +1,27 @@
 .carrossel {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
 
-    width: 120px;
-    max-width: 100%;
+    max-width: 1200px;
+    width: 100%;
 
-    margin: 100px 0;
+    overflow-x: auto;
+    scroll-behavior: smooth;
 
-    gap: 50px;
+    gap: 190px;
+}
+
+.container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    margin: 150px 0;
 }
 
 .imagem img {
@@ -19,18 +31,13 @@
     padding-bottom: 1.563rem;
 }
 
-.container, .carrossel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    overflow-x: auto;
-    scroll-behavior: smooth;
+.container, .carrossel, .item {
+    flex: none;
 }
 
-.container, .carrossel, .item {
-    width: 1200px;
-    flex: none;
+.item {
+    width: 500px;
+    min-height: 300px;
 }
 
 .info, .pessoa {

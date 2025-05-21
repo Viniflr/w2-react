@@ -4,13 +4,13 @@ import styles from './Comentarios2.module.css'
 
 import aspas from '../../img/aspas.svg'
 
-// import arrow from '../../img/arrow.svg'
+import arrow from '../../img/arrow.svg'
 
 export function Comentarios2() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5173/public/comentarios.json')
+        fetch('/comentarios.json')
           .then((response) => response.json())
           .then(setData);
       }, [])
@@ -23,7 +23,7 @@ export function Comentarios2() {
 
                 {data.map((item) => {
 
-                    const {id, imagem, titulo, texto, pessoa, empresa} = item
+                    const {id, titulo, texto, pessoa, empresa} = item
 
                     return ( 
                         <div className={styles.item} key={id}>
@@ -45,12 +45,6 @@ export function Comentarios2() {
                     );
                 })}
             </div>
-
-
-            {/* <div className="buttons">
-                        <button><img src={arrow} alt="Left" /></button>
-                        <button><img src={arrow} alt="Right" /></button>
-                    </div> */}
         </div>
         
     )
