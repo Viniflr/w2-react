@@ -62,9 +62,10 @@
     color: var(--white);
     z-index: 1;
 
-    max-width: 100%;
+    width: 100%;
 
     padding: 25px 0 0 35px;
+    gap: 0.5rem;
 }
 
 .c1, .c3 {
@@ -73,11 +74,29 @@
 }
 
 .info_c1 h1, .info_c2 h1, .info_c3 h1, .info_c4 h1 {
-    font-size: 2.188rem;
+    font-size: 1.75rem;
     font-weight: 600;
 }
 
+.info_c2 h1, .info_c3 h1 {
+    width: 400px;
+    line-height: normal;
+}
+
+.info_c1 h1, .info_c4 h1 {
+    width: 300px;
+    line-height: normal;
+}
+
 .info_c1 p, .info_c2 p, .info_c3 p, .info_c4 p {
-    font-size: 1.5rem;
+    font-size: 1.124rem;
     font-weight: 400;
+}
+
+.info_c2 p, .info_c3 p {
+    width: 500px;
+}
+
+.info_c1 p, .info_c4 p {
+    width: 350px;
 }

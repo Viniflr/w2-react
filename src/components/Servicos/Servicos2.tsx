@@ -3,43 +3,45 @@ import styles from './Servicos.module.css'
 
 const beneficios = [
     {
-        titulo: "Lorem Ipsum dolor sit amet",
+        titulo: "Tributário",
         itens: [
-            "Lore Ipsum dolor sit",
-            "Lore Ipsum dolor sit",
-            "Lore Ipsum dolor sit",
-            "Lore Ipsum dolor sit",
-            "Lore Ipsum dolor sit",
+            "Simulação de regimes fiscais e enquadramento ideal",
+            "Descontos em tributos federais através de créditos precatórios",
+            "Revisão de encargos sobre folha e retenções indevidas",
+            "Recuperação de créditos tributários federais (PIS, COFINS, IR e CSLL)",
+            "Suporte técnico em conformidade com normas da Receita Federal",
         ]
     },
     {
-        titulo: "Lorem Ipsum dolor sit amet",
+        titulo: "Controladoria",
         itens: [
-            "Lore Ipsum dolor sit",
-            "Lore Ipsum dolor sit",
-            "Lore Ipsum dolor sit",
-            "Lore Ipsum dolor sit",
-            "Lore Ipsum dolor sit",
+            "Estruturação e análise do DRE",
+            "Apuração de margens por produto",
+            "Monitoramento de custos e indicadores",
+            "Viabilidade econômica de novos investimentos",
+            "Implementação de sistemas de custos e orçamento",
+            "Integração de dados para gestão estratégica",
         ]
     },
     {
-        titulo: "Lorem Ipsum dolor sit amet",
+        titulo: "Financeiro",
         itens: [
-            "Lore Ipsum dolor sit",
-            "Lore Ipsum dolor sit",
-            "Lore Ipsum dolor sit",
-            "Lore Ipsum dolor sit",
-            "Lore Ipsum dolor sit",
+            "Integração Financeiro x Contábil",
+            "Monitoramento de fluxo de caixa",
+            "Análise de liquidez e estrutura de capital",
+            "Captação de recursos em fundos de investimento",
+            "Suporte para tomada de decisão financeira",
+            "Precificação e ponto de equilíbrio",
         ]
     },
     {
-        titulo: "Lorem Ipsum dolor sit amet",
+        titulo: "Consultoria Empresarial",
         itens: [
-            "Lore Ipsum dolor sit",
-            "Lore Ipsum dolor sit",
-            "Lore Ipsum dolor sit",
-            "Lore Ipsum dolor sit",
-            "Lore Ipsum dolor sit",
+            "Diagnóstico estratégico e operacional",
+            "Revisão de procedimentos produtivos e administrativos",
+            "Apoio na estruturação de áreas como PCP, Controladoria e Financeiro",
+            "Redesenho de layout de procedimentos (fluxo físico e informacional)",
+            "Plano de ação com metas mensuráveis e prazos definidos",
         ]
     }
 ]

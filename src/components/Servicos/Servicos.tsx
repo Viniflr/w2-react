@@ -4,19 +4,19 @@ import styles from './Servicos.module.css'
 const servicos = [
     {
         titulo: "Controladoria",
-        descricao: "Dificuldade em acompanhar e analisar a saúde financeira da empresa? Nós ajudamos você a ter dados claros para tomar decisões seguras.",
-    },
-    {
-        titulo: "Consultoria empresarial",
-        descricao: "Dificuldade para estruturar, expandir ou reverter cenários críticos? Nossa equipe analisa e orienta a melhor direção para o seu negócio.",
-    },
-    {
-        titulo: "Tributário",
-        descricao: "Problemas com tributos e falta de planejamento fiscal podem comprometer sua empresa. Atuamos para garantir conformidade e economia.",
+        descricao: "Monitoramento do desempenho econômico da empresa com foco em: margem, lucratividade, precificação, custos e indicadores de resultado.",
     },
     {
         titulo: "Financeiro",
-        descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.incididunt ut labore et",
+        descricao: "Organização, segurança e integração das informações financeiras para tomada de decisões precisas sobre caixa e investimentos.",
+    },
+    {
+        titulo: "Consultoria Empresarial",
+        descricao: "Diagnóstico e estruturação de áreas-chave da empresa tais como: produção, logística, qualidade, custos e planejamento.",
+    },
+    {
+        titulo: "Tributário",
+        descricao: "Planejamento fiscal e recuperação de créditos com foco em conformidade legal e redução da carga tributária federal.",
     },
 ]
 

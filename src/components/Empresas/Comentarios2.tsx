@@ -4,7 +4,7 @@ import styles from './Comentarios2.module.css'
 
 import aspas from '../../img/aspas.svg'
 
-import arrow from '../../img/arrow.svg'
+// import arrow from '../../img/arrow.svg'
 
 export function Comentarios2() {
     const [data, setData] = useState([]);

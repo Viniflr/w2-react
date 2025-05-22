@@ -17,9 +17,8 @@ export function Solucao() {
                 <div className={styles.container_cima}>
                     <div className='c1'>
                         <div className={styles.info_c1}>
-                            <h1>Lore Ipsum</h1>
-                            <p>Lorem ipsum dolor sit amet, <br /> consectetur
-                                adipiscing elit
+                            <h1>Falta clareza sobre o lucro  da empresa?</h1>
+                            <p>Organizamos seus dados financeiros e revelamos onde estão os gargalos.
                             </p>
                         </div>
                         <img className={styles.container1} src={container1} alt="" />
@@ -27,9 +26,8 @@ export function Solucao() {
 
                     <div className='c2'>
                         <div className={styles.info_c2}>
-                            <h1>Lore Ipsum</h1>
-                            <p>Lorem ipsum dolor sit amet, <br /> consectetur
-                                adipiscing elit
+                            <h1>Margem apertada e aumento dos custos?</h1>
+                            <p>Ajudamos a revisar seus preços, reduzir desperdícios e recuperar rentabilidade.
                             </p>
                         </div>
                         <img className={styles.container2} src={container2} alt="" />
@@ -39,9 +37,8 @@ export function Solucao() {
                 <div className={styles.container_baixo}>
                     <div className='c3'>
                             <div className={styles.info_c3}>
-                                <h1>Lore Ipsum</h1>
-                                <p>Lorem ipsum dolor sit amet, <br /> consectetur
-                                    adipiscing elit
+                                <h1>Carga tributária alta e falta de planejamento fiscal?</h1>
+                                <p>Analisamos sua estrutura e buscamos oportunidades legais de ganhos.
                                 </p>
                             </div>
                             <img className={styles.container3} src={container3} alt="" />
@@ -49,9 +46,8 @@ export function Solucao() {
 
                         <div className='c4'>
                             <div className={styles.info_c4}>
-                                <h1>Lore Ipsum</h1>
-                                <p>Lorem ipsum dolor sit amet, <br /> consectetur
-                                    adipiscing elit
+                                <h1>Divergência entre Contabilidade e Financeiro?</h1>
+                                <p>Reestruturamos processos e apoiamos a tomada de decisão com base análise dos números.
                                 </p>
                             </div>
                             <img className={styles.container4} src={container4} alt="" />
