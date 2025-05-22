@@ -18,21 +18,23 @@ import './global.css'
 export function App() {
 
   return (
-    <div>
+    <>
       <Header />
-      <Banner />
-      <Resultados />
-      <Sobre />
-      <Solucao />
-      <Servicos />
-      <Servicos2 />
-      <Empresas />
-      <Comentarios2 />
-      <Time />
-      <Divisao />
-      <Local />
-      <Formulario />
-      <Footer />
-    </div>
+      <main>
+        <Banner />
+        <Resultados />
+        <Sobre />
+        <Solucao />
+        <Servicos />
+        <Servicos2 />
+        <Empresas />
+        <Comentarios2 />
+        <Time />
+        <Divisao />
+        <Local />
+        <Formulario />
+        <Footer />
+      </main>
+    </>
   )
 }

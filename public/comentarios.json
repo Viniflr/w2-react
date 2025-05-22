@@ -1,44 +1,44 @@
 [
-    {
-        "id": 1,
-        "titulo": "Comprometido e Simples",
-        "texto": "Comprometido com os objetivos da organização, desenvolveu procedimentos de inventário na fábrica, reduzindo custos de maneira simples.",
-        "pessoa": "Rodrigo Moreira",
-        "empresa": "M&G Polímero"
-      },
-      {
-        "id": 2,
-        "titulo": "Organizado e Eficiente",
-        "texto": "De maneira organizada e focada, consegue elaborar orçamento financeiro. Além, de buscar constantemente eficiência no processo de planejamento.",
-        "pessoa": "Leandro Leon",
-        "empresa": "Porto Rico"
-      },
-      {
-        "id": 3,
-        "titulo": "Comprometido e Simples",
-        "texto": "Desenvolveu procedimentos de inventário na fábrica.",
-        "pessoa": "Rodrigo Moreira",
-        "empresa": "M&G Polímero"
-      },
-      {
-        "id": 4,
-        "titulo": "Comprometido e Simples",
-        "texto": "Desenvolveu procedimentos de inventário na fábrica.",
-        "pessoa": "Rodrigo Moreira",
-        "empresa": "M&G Polímero"
-      },
-      {
-        "id": 5,
-        "titulo": "Comprometido e Simples",
-        "texto": "Desenvolveu procedimentos de inventário na fábrica.",
-        "pessoa": "Rodrigo Moreira",
-        "empresa": "M&G Polímero"
-      },
-      {
-        "id": 6,
-        "titulo": "Comprometido e Simples",
-        "texto": "Desenvolveu procedimentos de inventário na fábrica.",
-        "pessoa": "Rodrigo Moreira",
-        "empresa": "M&G Polímero"
-      }
+  {
+    "id": 1,
+    "titulo": "Experiência Incrível!",
+    "texto": "A plataforma me surpreendeu positivamente. É intuitiva, rápida e muito útil no dia a dia.",
+    "pessoa": "Ana Souza",
+    "empresa": "UX Designer na Nuvem Ltda"
+  },
+  {
+    "id": 2,
+    "titulo": "Muito útil para o time",
+    "texto": "Conseguimos melhorar nosso fluxo de trabalho em mais de 30% após a adoção da ferramenta.",
+    "pessoa": "Carlos Mendes",
+    "empresa": "Gerente de Projetos na InovaTech"
+  },
+  {
+    "id": 3,
+    "titulo": "Simples e direto",
+    "texto": "O design é limpo e as funcionalidades estão bem organizadas. Tudo funciona como deveria!",
+    "pessoa": "Juliana Lima",
+    "empresa": "Desenvolvedora na BrightCode"
+  },
+  {
+    "id": 4,
+    "titulo": "Economia de tempo real",
+    "texto": "Reduzimos muito o tempo gasto com tarefas repetitivas. A automação é realmente eficiente.",
+    "pessoa": "Roberto Alves",
+    "empresa": "Analista de Sistemas na TecSoft"
+  },
+  {
+    "id": 5,
+    "titulo": "Apoio ao cliente excepcional",
+    "texto": "A equipe de suporte respondeu rápido e resolveu meu problema no mesmo dia!",
+    "pessoa": "Fernanda Dias",
+    "empresa": "Empreendedora Digital"
+  },
+  {
+    "id": 6,
+    "titulo": "Recomendo sem dúvidas",
+    "texto": "Já indiquei a ferramenta para amigos e colegas. Todo mundo adorou!",
+    "pessoa": "Lucas Ferreira",
+    "empresa": "Freelancer de Marketing"
+  }
 ]

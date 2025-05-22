@@ -3,7 +3,7 @@
     padding: 5rem 0;
     display: flex;
     justify-content: center;
-    background-color: var(--white); 
+    background-color: var(--white);
 }
 
 .info_sobre {
@@ -12,27 +12,54 @@
 }
 
 .fotocomBolinhas {
-    max-width: 766px;
-    flex-shrink: 0; /* <-- Impede que a imagem diminua caso o espaço fique pequeno */
+    max-width: 47.875rem;
+    /* 766px */
+    flex-shrink: 0;
 }
 
 .info_sobre h1 {
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
     font-weight: 600;
     color: black;
     margin-bottom: 2rem;
-    margin-top: 5rem; /* posiciona a imagem um pouco acima do texto */
+    margin-top: 5rem;
 }
 
 .info_sobre p {
-    font-size: 1.25rem; 
+    font-size: 1.25rem;
     font-weight: 400;
     color: black;
     line-height: 1.5;
-    max-width: 700px;
+    max-width: 43.75rem;
+    /* 700px */
 }
 
 .textos {
-    flex: 1; /* <-- Faz com que o texto use o espaço restante */
-    min-width: 0; /* <-- Impede que o texto fique muito largo */
+    flex: 1;
+    min-width: 0;
+}
+
+/* ====== RESPONSIVO 768px ====== */
+@media (max-width: 768px) {
+    .info_sobre {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 0 2rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fotocomBolinhas {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .info_sobre h1 {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .info_sobre p {
+        font-size: 1.125rem;
+    }
 }

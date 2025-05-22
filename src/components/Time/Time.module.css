@@ -7,11 +7,14 @@
     align-items: center;
 
     width: 100%;
-    height: 100%;
+    /* height: 100%;  <-- cuidado, pode não funcionar se o pai não tiver altura definida */
 
     gap: 5rem;
 
-    padding: 4.5rem 0;    
+    padding: 4.5rem 1rem;
+    /* coloquei padding lateral para mobile */
+    box-sizing: border-box;
+    /* garantir padding respeitado */
 }
 
 .pessoa_geral {
@@ -20,13 +23,23 @@
     align-items: center;
     justify-content: space-between;
 
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
+    /* para ficar fluido */
+
+    gap: 2rem;
+    /* um gap para separar, ao invés de usar justify-content espaço */
+    flex-wrap: wrap;
+    /* permitir quebra em telas pequenas */
 }
 
 .titulo {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    /* para os textos centralizados */
+    margin-bottom: 2rem;
 }
 
 .titulo h1 {
@@ -49,10 +62,10 @@
 .pessoa {
     display: flex;
     flex-direction: row;
-
     align-items: center;
-
     gap: 1rem;
+    flex-wrap: wrap;
+    /* para evitar overflow em telas pequenas */
 }
 
 .foto {
@@ -60,14 +73,19 @@
     height: auto;
     border-radius: 5px;
     border: 2px solid var(--dark-900);
+    object-fit: cover;
+    /* garante que a imagem preencha a área */
+    flex-shrink: 0;
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    align-items: left;
-
+    align-items: flex-start;
+    /* corrigido de 'left' para 'flex-start' */
     gap: 1.5rem;
+    flex: 1;
+    /* para ocupar o espaço restante */
 }
 
 .pessoa h1 {
@@ -83,6 +101,33 @@
 }
 
 .foto_grupo {
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
     border-radius: 10px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* RESPONSIVO: para telas pequenas */
+@media (max-width: 768px) {
+    .pessoa_geral {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pessoa {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .foto {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .info {
+        align-items: center;
+        text-align: center;
+    }
 }

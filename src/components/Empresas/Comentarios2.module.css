@@ -10,18 +10,28 @@
     scroll-behavior: smooth;
 
     gap: 190px;
+
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+    scroll-padding-left: 1rem;
+    /* para dar um padding na hora do scroll */
+    padding-left: 1rem;
+}
+
+.fadeOut {
+    opacity: 0;
 }
 
 .container {
-    width: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-
-    margin: 150px 0;
+    position: relative;
+    margin: 10rem 0;
+    padding: 0 1rem;
+    /* espaçamento lateral para evitar conteúdo colado */
 }
 
 .imagem img {
@@ -31,34 +41,36 @@
     padding-bottom: 1.563rem;
 }
 
-.container, .carrossel, .item {
+.container,
+.carrossel,
+.item {
     flex: none;
 }
 
 .item {
     width: 500px;
-    min-height: 300px;
+    min-width: 300px;
+    /* para melhorar o comportamento em telas pequenas */
 }
 
-.info, .pessoa {
+.info,
+.pessoa {
     display: flex;
     flex-direction: column;
-
     justify-content: center;
-    align-items: left;
+    align-items: flex-start;
+    /* 'left' não é válido, é flex-start */
 }
 
 .info h1 {
     font-size: 1.25rem;
     font-weight: 700;
-
     padding-bottom: 0.5rem;
 }
 
 .info p {
     font-size: 1.125rem;
     font-weight: 400;
-
     padding-bottom: 0.5rem;
 }
 
@@ -70,4 +82,87 @@
 .pessoa p {
     font-size: 0.875rem;
     font-weight: 400;
+}
+
+.controlsWrapper {
+    width: 100%;
+    max-width: 1200px;
+    /* igual à largura do carrossel */
+    display: flex;
+    justify-content: space-between;
+    /* bolinhas à esquerda, setas à direita */
+    align-items: center;
+    padding: 0 1rem;
+    /* espaçamento lateral */
+}
+
+.dots {
+    display: flex;
+    gap: 8px;
+    margin-top: 2rem;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: #1d2a49;
+    /* cor azul escuro */
+}
+
+.arrows {
+    display: flex;
+    gap: 1rem;
+}
+
+.arrow {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.arrow:hover {
+    background-color: #1d2a49;
+    border-color: #1d2a49;
+    color: white;
+}
+
+/* RESPONSIVO: telas até 768px */
+@media (max-width: 768px) {
+    .carrossel {
+        gap: 1.5rem;
+        padding-left: 0.5rem;
+        scroll-padding-left: 0.5rem;
+    }
+
+    .item {
+        width: 80vw;
+        /* ocupa 80% da largura da tela */
+        min-width: auto;
+    }
+
+    .info h1 {
+        font-size: 1.1rem;
+    }
+
+    .info p,
+    .pessoa h1,
+    .pessoa p {
+        font-size: 0.9rem;
+    }
+
+    .controlsWrapper {
+        padding: 0 0.5rem;
+    }
 }

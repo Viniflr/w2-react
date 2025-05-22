@@ -7,7 +7,11 @@
     background-color: var(--background-blue);
 
     gap: 5rem;
-    padding: 8rem 0;
+    padding: 8rem 1rem;
+    /* adiciona padding lateral para mobile */
+    flex-wrap: wrap;
+    /* para quebrar em telas pequenas */
+    box-sizing: border-box;
 }
 
 .geral h1 {
@@ -16,7 +20,9 @@
     color: var(--black);
     line-height: 1.2;
 
-    width: 350px;
+    max-width: 350px;
+    width: 100%;
+    /* para responsividade */
 }
 
 .geral span {
@@ -26,17 +32,21 @@
 
 .endereco {
     display: flex;
-    align-items: top;
     flex-direction: column;
-
+    align-items: flex-start;
+    /* substitui align-items: top */
     gap: 3rem;
+    max-width: 700px;
+    width: 100%;
 }
 
 .info {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: left;
+    justify-content: flex-start;
+    /* substitui justify-content: left */
+    gap: 1rem;
 }
 
 .icons {
@@ -69,7 +79,30 @@
 .mapa iframe {
     border-radius: 10px;
 
-
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     height: 450px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .geral {
+        flex-direction: column;
+        gap: 3rem;
+        padding: 4rem 1rem;
+    }
+
+    .geral h1 {
+        font-size: 2.2rem;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .endereco {
+        max-width: 100%;
+    }
+
+    .info {
+        justify-content: center;
+    }
 }

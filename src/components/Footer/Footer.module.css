@@ -23,7 +23,8 @@
     padding-bottom: 0.8rem;
 }
 
-.logo_texto p, .endereco_contato p {
+.logo_texto p,
+.endereco_contato p {
     width: 300px;
     font-weight: 400;
 }
@@ -45,14 +46,17 @@
     padding-bottom: 0.5rem;
 }
 
-.visao_geral, .servicos {
+.visao_geral,
+.servicos {
     display: flex;
     flex-direction: column;
 
     padding-top: 3.5rem;
 }
 
-.visao_geral h1, .servicos h1, .endereco_contato h1 {
+.visao_geral h1,
+.servicos h1,
+.endereco_contato h1 {
     font-weight: 600;
     padding-bottom: 0.8rem;
 }
@@ -63,8 +67,6 @@
     justify-content: left;
     align-items: center;
     gap: 1.5rem;
-    justify-content: left;
-    align-items: center;
 
     padding-top: 3.5rem;
 }
@@ -138,4 +140,76 @@
     height: 1px;
     background-color: var(--white);
     opacity: 30%;
+}
+
+/* === RESPONSIVIDADE === */
+
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+    .principal {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 2rem 1.5rem;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .logo_texto p,
+    .endereco_contato p {
+        width: 100%;
+        max-width: 350px;
+        text-align: center;
+    }
+
+    .link {
+        padding-left: 0;
+        gap: 3rem;
+        justify-content: center;
+    }
+
+    .final {
+        width: 100%;
+        padding: 1rem 1.5rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .texto_final {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .sociais {
+        width: 100px;
+        justify-content: center;
+    }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+    .link {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding-left: 0;
+        font-size: 0.8rem;
+    }
+
+    .principal {
+        padding: 1.5rem 1rem;
+    }
+
+    .logo_texto img {
+        width: 120px;
+    }
+
+    .final {
+        font-size: 0.7rem;
+        padding: 1rem 1rem;
+    }
+
+    .sociais {
+        width: 80px;
+        gap: 0.3rem;
+    }
 }

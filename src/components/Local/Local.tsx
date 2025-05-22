@@ -27,7 +27,7 @@ export function Local() {
             </div>
 
             <div className={styles.mapa}>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.366943248119!2d-34.89901422424619!3d-8.06400268058175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab190050ad3a77%3A0x38b40893d93d72ed!2sEmpresarial%20Graham%20Bell!5e0!3m2!1sen!2sbr!4v1747376989637!5m2!1sen!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1747949659426!6m8!1m7!1sow5InpyQjlF1cDFYFg0RiA!2m2!1d-8.063799695033566!2d-34.8961523618179!3f228.70860108652641!4f2.2049968213049596!5f0.7820865974627469" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>              
             </div>
 
         </div>
