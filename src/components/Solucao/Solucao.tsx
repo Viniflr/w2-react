@@ -10,7 +10,7 @@ export function Solucao() {
     
             <div className={styles.titulo}>
                 <h1>A <span>solução</span> para o seu negócio</h1>
-                <h3>Conheça como podemos te ajudar!</h3>
+                <h3>Conheça como podemos resolver os desafios da sua empresa!</h3>
             </div>    
 
             <div className={styles.geral_containers}>
@@ -38,7 +38,7 @@ export function Solucao() {
                     <div className='c3'>
                             <div className={styles.info_c3}>
                                 <h1>Carga tributária alta e falta de planejamento fiscal?</h1>
-                                <p>Analisamos sua estrutura e buscamos oportunidades legais de ganhos.
+                                <p>Analisamos sua estrutura e buscamos oportunidades seguras e legais de ganhos.
                                 </p>
                             </div>
                             <img className={styles.container3} src={container3} alt="" />
@@ -47,7 +47,7 @@ export function Solucao() {
                         <div className='c4'>
                             <div className={styles.info_c4}>
                                 <h1>Divergência entre Contabilidade e Financeiro?</h1>
-                                <p>Reestruturamos processos e apoiamos a tomada de decisão com base análise dos números.
+                                <p>Reestruturamos processos e apoiamos a tomada de decisão com base na análise dos números.
                                 </p>
                             </div>
                             <img className={styles.container4} src={container4} alt="" />

@@ -76,11 +76,29 @@
     background-color: #fff;
 }
 
-.beneficiosTitulo {
-    font-size: 1.5rem;
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo h1 {
+    font-size: 3.125rem;
     font-weight: 400;
+    color: var(--black);
+    margin-bottom: 1rem;
+}
+
+.titulo span {
+    font-weight: 700;
+    color: var(--blue-900);
+}
+
+.titulo h3 {
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: var(--black);
     margin-bottom: 5rem;
-    color: #000000;
 }
 
 .beneficiosGrid {
@@ -134,8 +152,7 @@
     }
 
     .titulo {
-        font-size: 28px;
-        /* 1.75rem = 28px */
+        font-size: 3rem;
         text-align: center;
     }
 

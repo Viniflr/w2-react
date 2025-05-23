@@ -8,8 +8,7 @@ export function Time() {
     return (
         <section id='time' className={styles.container_geral}>
             <div className={styles.titulo}> 
-                <h1>Time de <span>Associados</span></h1>
-                <h3>Conheça nosso time de associados</h3>
+                <h1>Nosso <span>Time</span></h1>
             </div>
             
             <div className={styles.pessoa_geral}>

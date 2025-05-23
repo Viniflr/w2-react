@@ -4,11 +4,11 @@ import styles from './Servicos.module.css'
 const servicos = [
     {
         titulo: "Controladoria",
-        descricao: "Monitoramento do desempenho econômico da empresa com foco em: margem, lucratividade, precificação, custos e indicadores de resultado.",
+        descricao: "Monitoramento do desempenho econômico da empresa com foco em: margem, lucratividade, custos e indicadores de resultado.",
     },
     {
         titulo: "Financeiro",
-        descricao: "Organização, segurança e integração das informações financeiras para tomada de decisões precisas sobre caixa e investimentos.",
+        descricao: "Organização, segurança e integração das informações financeiras para tomada de decisões precisas sobre formação de preço, fluxo de caixa e investimentos.",
     },
     {
         titulo: "Consultoria Empresarial",
