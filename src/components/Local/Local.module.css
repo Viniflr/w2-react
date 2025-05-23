@@ -78,9 +78,7 @@
 
 .mapa iframe {
     border-radius: 10px;
-
-    width: 100%;
-    max-width: 700px;
+    width: 600px;
     height: 450px;
 }
 
@@ -104,5 +102,9 @@
 
     .info {
         justify-content: center;
+    }
+
+    .mapa iframe {
+        max-width: 300px;
     }
 }

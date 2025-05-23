@@ -21,7 +21,7 @@ export function Formulario() {
         e.preventDefault();
         const { nome, email, empresa, telefone } = formData;
         // Substitua pelo número real
-        const numeroWhatsApp = '558181704809';
+        const numeroWhatsApp = '558199158129';
         const mensagem = `Olá! Me chamo ${nome}.\nEmail: ${email}\nEmpresa: ${empresa}\nTelefone: ${telefone}`;
         const mensagemCodificada = encodeURIComponent(mensagem);
         const url = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${mensagemCodificada}`;
